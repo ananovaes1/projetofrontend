@@ -34,8 +34,10 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
+  padding: 0 24px;
 }
 
 /* profile */
@@ -56,10 +58,9 @@ body * {
 }
 
 #switch {
-position: relative;
- width: 64px;
- margin: 4px auto;
-
+  position: relative;
+  width: 64px;
+  margin: 4px auto;
 }
 
 /* switch */
@@ -79,7 +80,6 @@ position: relative;
 .light #switch button {
   right: 0;
   left: initial;
-
 }
 
 #switch span {
